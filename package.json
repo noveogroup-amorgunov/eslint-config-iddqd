@@ -1,0 +1,25 @@
+{
+  "name": "eslint-config-iddqd",
+  "version": "1.0.0",
+  "main": "base.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:iddqd-dev/eslint-config-iddqd.git"
+  },
+  "files": [
+    "base.js",
+    "es6.js",
+    "node.js",
+    "react.js"
+  ],
+  "keywords": [
+    "eslint",
+    "config"
+  ],
+  "author": "Maxim Vorontsov <maxie@yandex-team.ru>",
+  "maintainers": [
+    "Maxim Vorontsov <maxie@yandex-team.ru>",
+    "Sergey Gogolev <gogoleff@yandex-team.ru>"
+  ],
+  "license": "MIT"
+}
