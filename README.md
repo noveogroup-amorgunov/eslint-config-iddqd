@@ -32,13 +32,14 @@ And add new section to the `package.json`:
 
 Install 
 
-`npm install eslint eslint-config-iddqd`
+`npm install eslint eslint-config-iddqd babel-eslint`
 
 And add new section to the `package.json`:  
 
 ```json
 "eslintConfig": {
-  "extends": "iddqd/node"
+  "extends": "iddqd/node",
+  "parser": "babel-eslint"
 }
 ```
 

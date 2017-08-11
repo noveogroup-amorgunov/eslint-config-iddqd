@@ -4,7 +4,6 @@ module.exports = {
     // - Possible errors
     "for-direction": 2,
     "getter-return": 2,
-    "no-await-in-loop": 2,
     "no-cond-assign": 2,
     "no-constant-condition": 2,
     "no-control-regex": 2,
@@ -48,7 +47,6 @@ module.exports = {
     // - Best practises
     "accessor-pairs": 2,
     "block-scoped-var": 2,
-    "class-methods-use-this": 2,
     "complexity": [2, 5],
     "curly": 2,
     "default-case": 2,
@@ -148,7 +146,6 @@ module.exports = {
     "newline-per-chained-call": 2,
     "no-array-constructor": 2,
     "no-bitwise": 2,
-    "no-continue": 2,
     "no-lonely-if": 2,
     "no-mixed-operators": 2,
     "no-mixed-spaces-and-tabs": 2,
@@ -160,7 +157,6 @@ module.exports = {
     "no-tabs": 2,
     "no-nested-ternary": 2,
     "no-trailing-spaces": 2,
-    "no-underscore-dangle": 2,
     "no-unneeded-ternary": 2,
     "no-whitespace-before-property": 2,
     "object-curly-spacing": [2, "always"],
