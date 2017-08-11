@@ -12,6 +12,10 @@ module.exports = {
       "react"
   ],
   "rules": {
+      // - Workarounds
+      // -- Support thin in arrow functions class prpoerties
+      "no-invalid-this": 0,
+
       // - React
       "react/forbid-prop-types": [2, { "forbid": ["any"] }],
       "react/no-array-index-key": 2,
@@ -34,7 +38,6 @@ module.exports = {
       "react/prefer-es6-class": 2,
       "react/prop-types": 2,
       "react/react-in-jsx-scope": 2,
-      "react/require-optimization": 2,
       "react/require-render-return": 2,
       "react/self-closing-comp": 2,
       "react/style-prop-object": 2,
@@ -57,7 +60,6 @@ module.exports = {
       "react/jsx-no-target-blank": 2,
       "react/jsx-no-undef": 2,
       "react/jsx-pascal-case": 2,
-      "react/jsx-space-before-closing": [2, "always"],
       "react/jsx-tag-spacing": 2,
       "react/jsx-uses-react": 2,
       "react/jsx-uses-vars": 2,

@@ -47,14 +47,15 @@ And add new section to the `package.json`:
 Install 
 
 ```sh
-npm install eslint eslint-config-iddqd eslint-plugin-react eslint-plugin-import
+npm install eslint eslint-config-iddqd eslint-plugin-react eslint-plugin-import babel-eslint
 ```
 
 And add new section to the `package.json`:  
 
 ```json
 "eslintConfig": {
-  "extends": "iddqd/react"
+  "extends": "iddqd/react",
+  "parser": "babel-eslint"
 }
 ```
 
@@ -74,6 +75,7 @@ And add new sections to the `package.json`:
 },
 "eslintConfig": {
   "extends": "iddqd/react",
+  "parser": "babel-eslint",
   "rules": {
     "react/sort-comp": 2
   }
