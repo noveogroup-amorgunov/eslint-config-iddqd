@@ -80,7 +80,7 @@ module.exports = {
       "import/order": [2,
         {
           "groups": ["builtin", "external", "internal", "parent", "sibling", "index"],
-          "newlines-between": "always"
+          "newlines-between": "always-and-inside-groups"
         }
       ],
       "import/prefer-default-export": 2
