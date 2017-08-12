@@ -50,7 +50,6 @@ module.exports = {
       "react/jsx-curly-spacing": 2,
       "react/jsx-equals-spacing": 2,
       "react/jsx-first-prop-new-line": 2,
-      "react/jsx-handler-names": 2,
       "react/jsx-indent": 2,
       "react/jsx-indent-props": 2,
       "react/jsx-key": 2,
