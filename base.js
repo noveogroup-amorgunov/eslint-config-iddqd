@@ -119,6 +119,7 @@ module.exports = {
     "no-use-before-define": [2, "nofunc"],
 
     // - Style
+    "array-bracket-spacing": [2, "never"],
     "block-spacing": [2, "always"],
     "brace-style": [2, "1tbs", { "allowSingleLine": true }],
     "camelcase": 2,
@@ -141,7 +142,8 @@ module.exports = {
     "max-params": [2, 3],
     "max-statements": [2, 10],
     "max-statements-per-line": 2,
-    "new-cap": 2,
+    // For convenience classes (e.g., Sequelize data types)
+    "new-cap": [2, { "capIsNew": false }],
     "new-parens": 2,
     "newline-per-chained-call": 2,
     "no-array-constructor": 2,
@@ -150,7 +152,14 @@ module.exports = {
     "no-mixed-operators": 2,
     "no-mixed-spaces-and-tabs": 2,
     "no-multi-assign": 2,
-    "no-multiple-empty-lines": 2,
+    "no-multiple-empty-lines": [
+      2,
+      {
+        "max": 1,
+        "maxEOF": 0,
+        "maxBOF": 0
+      }
+    ],
     "no-negated-condition": 2,
     "no-new-object": 2,
     "no-plusplus": 2,
@@ -173,7 +182,15 @@ module.exports = {
     "semi-spacing": 2,
     "semi-style": 2,
     "space-before-blocks": 2,
+    "space-before-function-paren": [2,
+      {
+        "anonymous": "always",
+        "named": "never",
+        "asyncArrow": "always"
+      }
+    ],
     "space-infix-ops": 2,
+    "space-in-parens": 2,
     "space-unary-ops": 2,
     "spaced-comment": 2,
     "switch-colon-spacing": 2,

@@ -43,6 +43,21 @@ And add new section to the `package.json`:
 }
 ```
 
+If you use object spread (added in Node.js 8.7+), you can add follow lines
+
+```diff
+"eslintConfig": {
+  "extends": "iddqd/node",
+  "parser": "babel-eslint",
++ "parserOptions": {
++   "ecmaVersion": 2017,
++   "ecmaFeatures": {
++     "experimentalObjectRestSpread": true
++   }
++ }
+}
+```
+
 ## Usage for React projects
 
 Install 
